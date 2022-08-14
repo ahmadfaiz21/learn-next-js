@@ -75,10 +75,6 @@ function FilteredEventsPage(props) {
     );
   });
 
-  
-
-  
-
   if (!filteredEvents || filteredEvents.length === 0) {
     return (
       <Fragment>
