@@ -4,9 +4,12 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout><Head>
-      <meta name="veiwport" content="initial-scale=1.0, width=device-width"/>
-    </Head>
+    <Layout>
+      <Head>
+        <title>Next Events</title>
+        <meta name="description" content="" />
+        <meta name="veiwport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Component {...pageProps} />
     </Layout>
   );
